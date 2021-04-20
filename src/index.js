@@ -11,8 +11,6 @@ export const client = new ApolloClient({
   cache: new InMemoryCache()
 });
 
-import { gql } from '@apollo/client'
-import { client } from './index'
 
 ReactDOM.render(
   <React.StrictMode>
